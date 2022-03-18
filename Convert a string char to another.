@@ -18,3 +18,13 @@ function DNAtoRNA(dna) {
   // create a function which returns an RNA sequence from the given DNA sequence
   return dna.replace(/T/g,'U')
 }
+
+
+other solutions
+function DNAtoRNA(dna) {
+  return dna.split("T").join("U");
+}
+
+const DNAtoRNA = dna => dna.replace(/T/g, 'U');
+
+
