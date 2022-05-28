@@ -1,0 +1,26 @@
+Training JS #16: Methods of String object--slice(), substring() and substr()
+
+
+
+function cutIt(arr){
+  //coding here...
+  let smallest = Math.min((...arr).map(el => el.length))
+  return arr.map(el => el.slice(0,smallest))
+}
+
+
+
+
+
+function cutIt(arr) {
+  var smallest = arr[0].length;
+  for(var i = 0; i < arr.length; i++) {
+    if(arr[i].length < smallest) {
+      smallest = arr[i].length;
+    }
+  }
+  var map = arr.map(function(x) {
+    return x.slice(0, smallest);
+  });
+  return map;
+};
