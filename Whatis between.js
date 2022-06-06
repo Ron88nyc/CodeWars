@@ -6,16 +6,20 @@ For example:
 
 a = 1
 b = 4
---> [1, 2, 3, 4]
+// --> [1, 2, 3, 4]
 
 
 
 
 function between(a, b) {
-  // your code here
+
   arr = []
   for(i = a;i <= b; i++){ 
       arr.push(i)
   }
   return arr
 }
+
+//set an array
+//loop thourgh it and push the the numbers from a to b
+
