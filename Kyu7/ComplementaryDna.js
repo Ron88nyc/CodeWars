@@ -2,9 +2,10 @@
 
 // If you want to know more: http://en.wikipedia.org/wiki/DNA
 
-// In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G". You function receives one side of the DNA (string, except for Haskell); you need to return the other complementary side. DNA strand is never empty or there is no DNA at all (again, except for Haskell).
+// In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G". 
+// You function receives one side of the DNA (string, except for Haskell); you need to return the 
+// other complementary side. DNA strand is never empty or there is no DNA at all (again, except for Haskell).
 
-// More similar exercise are found here: http://rosalind.info/problems/list-view/ (source)
 
 // Example: (input --> output)
 
@@ -14,26 +15,6 @@
 // const assert = chai.assert;
 // chai.config.truncateThreshold=0;
 
-// describe("Basic tests", () => {
-//   it("Testing for fixed tests", () => {
-//     assert.strictEqual(DNAStrand("AAAA"),"TTTT","String AAAA is")
-//     assert.strictEqual(DNAStrand("ATTGC"),"TAACG","String ATTGC is")
-//     assert.strictEqual(DNAStrand("GTAT"),"CATA","String GTAT is")
-//     assert.strictEqual(DNAStrand("AAGG"),"TTCC", "String AAGG is")
-//     assert.strictEqual(DNAStrand("CGCG"),"GCGC", "String CGCG is")
-//     assert.strictEqual(DNAStrand("ATTGC"),"TAACG","String ATTGC is")
-//     assert.strictEqual(DNAStrand("GTATCGATCGATCGATCGATTATATTTTCGACGAGATTTAAATATATATATATACGAGAGAATACAGATAGACAGATTA"),"CATAGCTAGCTAGCTAGCTAATATAAAAGCTGCTCTAAATTTATATATATATATGCTCTCTTATGTCTATCTGTCTAAT")
-//   })
-// })
-
-
-
-
-
-
-
-
-
 
 function DNAStrand(dna){
     var dnaPairs = {'A':'T', 'T':'A', 'G':'C', 'C':'G'};
@@ -42,3 +23,32 @@ function DNAStrand(dna){
   
   console.log(  DNAStrand("ATTGC")  ); // TAACG
   
+
+
+//   function DNAStrand(dna){
+//     //your code here
+//     var result= "";
+//         for(var i =0; i<dna.length; i++) 
+//         {
+//           if (dna[i]==="A") 
+//          {
+//           result +="T";
+//          }
+//           else if (dna[i]==="T") 
+//          {
+//           result += "A";
+//           }
+//           else if (dna[i]==="C")
+//           {
+//           result +="G";
+//           }
+//           else if (dna[i]==="G")
+//           {
+//           result += "C";
+//           }
+//           else {
+//           result +=dna[i];
+//           }
+//        }
+//        return result;
+//     }
