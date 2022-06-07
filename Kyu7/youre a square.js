@@ -24,7 +24,7 @@ function isSquare(n) {
   return Math.sqrt(n) % 1 === 0;
 }
 
-parameter is a number
-return is a numb
-example 25 is true beacuse 5 * 5
-i would square the number and then check if they're a true square 
+// parameter is a number
+// return is a numb
+// example 25 is true beacuse 5 * 5
+// psuedocode would square the number and then check if they're a true square 
