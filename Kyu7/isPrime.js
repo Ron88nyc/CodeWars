@@ -17,7 +17,7 @@ function isPrime(num) {
    }
  }
   return true;
- }
-isPrime(521) //is True
-isPrime(9801) //is False
-isPrime(13037) //is True
+//  }
+// isPrime(521) //is True
+// isPrime(9801) //is False
+// isPrime(13037) //is True
