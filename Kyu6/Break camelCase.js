@@ -12,3 +12,22 @@ function solution(string) {
   
   return char.join('')
 }
+
+
+
+
+
+//   function solution(string) {
+//     return string.split('').map(function(e) {
+//       return e === e.toUpperCase() ? (" " + e) : e
+//       }).join('')
+//   }
+
+
+
+
+//   // complete the function
+// function solution(string) {
+//   return(string.replace(/([A-Z])/g, ' $1'));
+
+// }
