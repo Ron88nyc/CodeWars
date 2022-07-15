@@ -23,8 +23,8 @@ function sumOfMinimums(arr) {
     return total;
   }
 
-clever solu 
+// clever solution 
 
-  function sumOfMinimums(arr) {
-    return arr.reduce((p, c) => p + Math.min(...c), 0);
-  }
+//   function sumOfMinimums(arr) {
+//     return arr.reduce((p, c) => p + Math.min(...c), 0);
+//   }
