@@ -25,3 +25,7 @@ I will first make sure i can return the answer to the function. Then add the mul
 function multiply(a, b){
   return a * b
 }
+
+new Format
+
+const multiply = (a,b) => a * b
