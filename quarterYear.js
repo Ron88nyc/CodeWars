@@ -7,3 +7,4 @@ For example: month 2 (February), is part of the first quarter; month 6 (June), i
 
 
 const quarterOf = m => Math.ceil(m/3);s
+const quarterOf = m => Math.ceil(m/3);
