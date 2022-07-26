@@ -15,10 +15,10 @@ function myLanguages(results) {
     return Object.keys(results).filter(r => results[r] > 59).sort((a,b) => results[b] - results[a]);
   }
 
-// param is an ojbect
-// return an array in descending order of score 60>
-// example would be // {"Java": 10, "Ruby": 80, "Python": 65}    -->  ["Ruby", "Python"]
-// psuedo code I would first sort the objects and then create a conditional to filter out the scores of 60 and less.
+param is an ojbect
+return an array in descending order of score 60>
+example would be // {"Java": 10, "Ruby": 80, "Python": 65}    -->  ["Ruby", "Python"]
+psuedo code I would first sort the objects and then create a conditional to filter out the scores of 60 and less.
 
 // Clever Solution added
 // const myLanguages = results => Object.entries(results)
