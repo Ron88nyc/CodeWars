@@ -15,12 +15,16 @@ inAscOrder([9,8,7,6,5,4,3,2,1]); // returns false because the numbers are in DES
 
 
 
-
-
 function inAscOrder(arr) {
-  if (arr [0] > arr.length-1) {
-    return false
-  } else {
-    return true
-  }
+  for (i = 0; i < arr.length; i++) {
+    if (arr[i] >= arr[i+1]) { // checks current value against next value
+      return false; // searches for false
+    }    
 }
+return true; // if no false after looping through, returns true
+}
+
+
+other alternative solution 
+
+const inAscOrder = arr => arr.join('') === arr.sort((a, b) => a - b).join('');
