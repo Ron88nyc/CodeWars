@@ -61,3 +61,6 @@ var SequenceSum = (function() {
 //         : `${Array.from({length: n+1}, (v, k) => k).join('+')}${n?' = ':'='}${n*(n+1)/2}`;
 //     }
 //   }
+
+
+const evenNumbers = (array, number) => array.filter(item => item % 2 === 0).slice(-number);
