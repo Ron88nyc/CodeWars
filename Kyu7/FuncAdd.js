@@ -15,7 +15,7 @@ var add = a=> n=>n+a
 
 
 
-other solution
+// other solution
 
 function add(n) {
     return function (m) {
