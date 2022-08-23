@@ -37,13 +37,13 @@ function rowWeights(array){
 }
 
 
-function rowWeights(array){
-    var arr = [0, 0];
-    for (var i = 0; i < array.length; i++) {
-      i % 2 == 0 ? arr[0] += array[i] : arr[1] += array[i];
-    }
-    return arr;
-  }
+// function rowWeights(array){
+//     var arr = [0, 0];
+//     for (var i = 0; i < array.length; i++) {
+//       i % 2 == 0 ? arr[0] += array[i] : arr[1] += array[i];
+//     }
+//     return arr;
+//   }
 
 
 
