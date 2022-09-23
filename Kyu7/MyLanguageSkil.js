@@ -19,3 +19,9 @@ function myLanguages(results) {
 // return an array in descending order of score 60>
 // example would be // {"Java": 10, "Ruby": 80, "Python": 65}    -->  ["Ruby", "Python"]
 // psuedo code I would first sort the objects and then create a conditional to filter out the scores of 60 and less.
+
+// Clever Solution added
+// const myLanguages = results => Object.entries(results)
+//   .filter(([name, points]) => points >= 60)
+//   .sort(([name1, points1], [name2, points2]) => points2 - points1)
+//   .map(([name, points]) => name);
