@@ -17,7 +17,7 @@ function myLanguages(results) {
 
 param is an ojbect
 return an array in descending order of score 60>
-example would be // {"Java": 10, "Ruby": 80, "Python": 65}    -->  ["Ruby", "Python"]
+// example would be //  {"Java": 10, "Ruby": 80, "Python": 65}    -->  ["Ruby", "Python"]
 psuedo code I would first sort the objects and then create a conditional to filter out the scores of 60 and less.
 
 // Clever Solution added
