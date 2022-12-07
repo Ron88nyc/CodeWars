@@ -6,19 +6,14 @@
 
 
 function count (string) {  
-    // The function code should be here
-    let countObj = {}
-    for (const i of string) {
-      countObj[i] ? countObj[i]++ : countObj[i] = 1
-    }
-    
-    return countObj
+  // The function code should be here
+  let countObj = {}
+  for (const i of string) {
+    countObj[i] ? countObj[i]++ : countObj[i] = 1
   }
-
-
-
-
-
+  
+  return countObj
+}
 
 
 // function count (string) {  
@@ -28,6 +23,3 @@ function count (string) {
 //   });
 //   return count;
 // }
-
-
-
