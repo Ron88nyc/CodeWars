@@ -8,21 +8,21 @@
 //n = 15 ->  1, 2, fizz, 4, buzz, fizz, 7, 8, fizz, buzz, 11, fizz, 13, 14, fizzbuzz
 
 
-function fizzBuzz(num) {
-    for (let i = 1; i <= num; i++) {
-        if (i % 3 === 0 && i % 5 === 0) {
-            console.log('FizzBuzz')
-        } else if (i % 3 === 0) {
-                console.log('Fizz')
-            } else if (i % 5 === 0) {
-                    console.log('Buzz')
-                } else {
-                    console.log(i)
-                }
-            }
-        }
+// function fizzBuzz(num) {
+//     for (let i = 1; i <= num; i++) {
+//         if (i % 3 === 0 && i % 5 === 0) {
+//             console.log('FizzBuzz')
+//         } else if (i % 3 === 0) {
+//                 console.log('Fizz')
+//             } else if (i % 5 === 0) {
+//                     console.log('Buzz')
+//                 } else {
+//                     console.log(i)
+//                 }
+//             }
+//         }
 
-fizzBuzz(15)
+// fizzBuzz(15)
 
 
 // param is a Number
