@@ -11,9 +11,9 @@ my solution
 
 
 
-function maps(x) {
-  return x.map(n => (n * 2))
-}
+// function maps(x) {
+//   return x.map(n => (n * 2))
+// }
 
 
 past solution
