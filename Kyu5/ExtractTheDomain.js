@@ -25,6 +25,15 @@ function domainName(url){
 
 }
 
-you can chain the relace method multiple times if needed
-I would replace all the https:// and make it empty with the method and show only the first array after splitting it.
-Use the dot in the split method as a seperator.
+// you can chain the relace method multiple times if needed
+// I would replace all the https:// and make it empty with the method and show only the first array after splitting it.
+// Use the dot in the split method as a seperator.
+
+// function domainName(url){
+//     return url.replace('http://','').replace('https://','').replace('www.','').split('.')[0]
+     
+     
+   
+//    }
+
+// Clever solution 
