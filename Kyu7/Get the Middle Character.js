@@ -49,17 +49,17 @@
 
 
 
-function getMiddle(s)
-{
-  return s.slice((s.length-1)/2, s.length/2+1);
-}
+// function getMiddle(s)
+// {
+//   return s.slice((s.length-1)/2, s.length/2+1);
+// }
 
 
-function getMiddle(string) {
-  var middleIndex = string.length / 2;
-  if (string.length % 2 == 0) {
-    return string.slice(middleIndex - 1, middleIndex + 1);
-  } else {
-    return string.charAt(middleIndex);
-  }
+// function getMiddle(string) {
+//   var middleIndex = string.length / 2;
+//   if (string.length % 2 == 0) {
+//     return string.slice(middleIndex - 1, middleIndex + 1);
+//   } else {
+//     return string.charAt(middleIndex);
+//   }
 }
