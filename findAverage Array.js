@@ -20,10 +20,10 @@ function find_average(array) {
 }
 
 
-other solution
+// other solution
 
-var find_average = (array) => {  
-  return array.length === 0 ? 0 : array.reduce((acc, ind)=> acc + ind, 0)/array.length
-}
+// var find_average = (array) => {  
+//   return array.length === 0 ? 0 : array.reduce((acc, ind)=> acc + ind, 0)/array.length
+// }
 
 

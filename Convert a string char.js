@@ -1,17 +1,17 @@
 
 
-Create a function which translates a given DNA string into RNA.
+// Create a function which translates a given DNA string into RNA.
 
-For example:
+// For example:
 
-"GCAT"  =>  "GCAU"
-The input string can be of arbitrary length - in particular, it may be empty. All input is guaranteed to be valid, 
-i.e. each input string will only ever consist of 'G', 'C', 'A' and/or 'T'.
+// "GCAT"  =>  "GCAU"
+// The input string can be of arbitrary length - in particular, it may be empty. All input is guaranteed to be valid, 
+// i.e. each input string will only ever consist of 'G', 'C', 'A' and/or 'T'.
 
 
 
-My Solution using the string.replace() method. example using string.replace('T','U') will only apply to the first instance.
-For the global and continuous use it would have to be string.replace(/T/g,'U').
+// My Solution using the string.replace() method. example using string.replace('T','U') will only apply to the first instance.
+// For the global and continuous use it would have to be string.replace(/T/g,'U').
 
 my solution
 function DNAtoRNA(dna) {
@@ -20,11 +20,11 @@ function DNAtoRNA(dna) {
 }
 
 
-other solutions
-function DNAtoRNA(dna) {
-  return dna.split("T").join("U");
-}
+// other solutions
+// function DNAtoRNA(dna) {
+//   return dna.split("T").join("U");
+// }
 
-const DNAtoRNA = dna => dna.replace(/T/g, 'U');
+// const DNAtoRNA = dna => dna.replace(/T/g, 'U');
 
 
