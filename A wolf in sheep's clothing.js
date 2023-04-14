@@ -24,11 +24,11 @@
 // }
 
 
-// function warnTheSheep(queue) {
-//   var sheep = queue.length - queue.indexOf('wolf') - 1
-//     if (sheep ==0 ){
-//       return "Pls go away and stop eating my sheep"
-//     } else {
-//       return "Oi! Sheep number "+ sheep +"! You are about to be eaten by a wolf!"
-//     }
-// }
+function warnTheSheep(queue) {
+  var sheep = queue.length - queue.indexOf('wolf') - 1
+    if (sheep ==0 ){
+      return "Pls go away and stop eating my sheep"
+    } else {
+      return "Oi! Sheep number "+ sheep +"! You are about to be eaten by a wolf!"
+    }
+}
